@@ -1,0 +1,8 @@
+.spinner {
+  color: red;
+  height: 100px;
+  width: 100px;
+  margin: auto;
+  font-family: 'Material Icons';
+  font-size: 100px;
+}

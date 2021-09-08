@@ -1,0 +1,17 @@
+<h1>Angular image rotation example</h1>
+<button (click)="rotate()">Press me to rotate</button>
+
+<hr>
+<br><br><br><br>
+
+<!-- Remember to add binding to tag -->
+<div class="spinner" [@rotated]='state' (@rotated.done)="onRotationComplete()" >
+  <span class="material-icons-outlined">
+    refresh
+  </span>
+</div>
+
+
+
+
+
